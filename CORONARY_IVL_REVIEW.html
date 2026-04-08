@@ -827,7 +827,16 @@
 
         <!-- Tab: Analysis -->
         <section id="tab-analysis" class="tab-content h-full p-10 overflow-y-auto hidden" role="tabpanel" aria-labelledby="btn-tab-analysis">
-            <div class="max-w-[1600px] mx-auto space-y-10 pb-20">
+<div class="glass p-6 rounded-2xl border border-cyan-500/30 mb-6">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center"><i class="fa-solid fa-map"></i></div>
+                <div>
+                    <div class="text-sm font-bold text-cyan-300">Evidence Map Mode</div>
+                    <div class="text-xs text-slate-400">No randomized comparative trials are available for this topic yet. All current evidence comes from single-arm studies. This app operates as an evidence map &mdash; tracking the landscape of available studies, their designs, and results. Meta-analytic pooling will activate automatically when the first RCT with a comparator arm publishes results.</div>
+                </div>
+            </div>
+        </div>
+<div class="max-w-[1600px] mx-auto space-y-10 pb-20">
                 <div class="grid grid-cols-3 gap-8" aria-live="polite" aria-atomic="true">
                     <div class="glass p-8 rounded-[40px] border-l-[8px] border-blue-500 bg-blue-500/5 text-center"><div id="label-pooled-em" class="text-[10px] opacity-50 uppercase font-bold mb-3 tracking-[0.2em]">Pooled Primary Effect (HR/RR)</div><div id="res-or" aria-label="Pooled effect estimate" class="text-6xl font-bold font-mono tracking-tighter">--</div></div>
                     <!-- label updated dynamically by setEffectMeasure/updateEMLabels -->
@@ -999,7 +1008,16 @@
 
         <!-- Tab: Report -->
         <section id="tab-report" class="tab-content h-full p-10 overflow-y-auto hidden text-white" role="tabpanel" aria-labelledby="btn-tab-report">
-            <div class="max-w-6xl mx-auto space-y-10 pb-20">
+<div class="glass p-6 rounded-2xl border border-cyan-500/30 mb-6">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center"><i class="fa-solid fa-map"></i></div>
+                <div>
+                    <div class="text-sm font-bold text-cyan-300">Evidence Map Mode</div>
+                    <div class="text-xs text-slate-400">No randomized comparative trials are available for this topic yet. All current evidence comes from single-arm studies. This app operates as an evidence map &mdash; tracking the landscape of available studies, their designs, and results. Meta-analytic pooling will activate automatically when the first RCT with a comparator arm publishes results.</div>
+                </div>
+            </div>
+        </div>
+<div class="max-w-6xl mx-auto space-y-10 pb-20">
                 <div class="flex justify-between items-center bg-slate-900/50 p-8 rounded-3xl border border-slate-800">
                     <div class="flex items-center gap-6">
                         <div class="w-14 h-14 rounded-2xl bg-purple-600/20 flex items-center justify-center text-purple-400"><i class="fa-solid fa-pen-nib text-2xl"></i></div>
